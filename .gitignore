@@ -1,1 +1,9 @@
-# Empty for now, ensure to include sensitive files here
+# Secrets: never commit these
+.env
+*.env
+!.env.example
+*.key
+
+# Container runtime data
+state/
+data/
