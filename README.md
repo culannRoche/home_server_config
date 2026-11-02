@@ -24,7 +24,7 @@ Before first use, set `REPO_URL` in `bootstrap.sh` to this repo's URL. The repo 
 **2. Get the script onto the server.** Log in and download it:
 
 ```bash
-wget https://raw.githubusercontent.com/YOUR_GITHUB_USER/homeserver/main/bootstrap.sh
+wget https://raw.githubusercontent.com/culannRoche/home_server_config/main/bootstrap.sh
 ```
 
 Or copy it from a USB stick with `sudo mount /dev/sdb1 /mnt && cp /mnt/bootstrap.sh ~` (use `lsblk` to find the stick).

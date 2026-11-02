@@ -28,7 +28,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # ---------- Configuration ----------
-REPO_URL="${REPO_URL:-https://github.com/YOUR_GITHUB_USER/homeserver.git}"
+REPO_URL="${REPO_URL:-https://github.com/culannRoche/home_server_config.git}"
 REPO_DIR="/opt/homeserver"        # git clone of this repo (code only, no secrets)
 CONTAINERS_DIR="/opt/containers"  # runtime data: .env files, volumes, state
 TS_HOSTNAME="${TS_HOSTNAME:-$(hostname)}"
